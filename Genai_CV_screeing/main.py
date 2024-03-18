@@ -142,9 +142,9 @@ def remove_with_elevated_permissions(path):
 
 
 def main():
-    path = "C:/Users/RD391NK/PycharmProjects/pythonProject/Genai_CV_screeing/faiss_index"
+    path = "faiss_index"
     st.set_page_config("EY CV screening App")
-    image = Image.open("C:/Users/RD391NK/PycharmProjects/pythonProject/Genai_CV_screeing/ey logo.jpg")
+    image = Image.open("ey logo.jpg")
     # image_resized = image.resize((,100))
     st.image(image, use_column_width=True)
     st.header("CV screening 🕵")
